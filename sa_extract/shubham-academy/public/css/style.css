@@ -454,9 +454,9 @@ address { font-style:normal; }
 @media(max-width:640px) {
   .wrap { padding:0 1.25rem; }
   .header-wrap { padding:0 1.25rem; }
-  .lt-marathi { display:none; }
+  .lt-marathi { display:block; font-size:8px; }
   .lt-name { font-size:.95rem; }
-  .logo-img-wrap { width:46px; height:46px; border-radius:6px; padding:3px; }
+  .logo-img-wrap { width:58px; height:58px; border-radius:6px; padding:3px; }
 
   /* Mobile nav */
   .nav {
