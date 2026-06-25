@@ -1,0 +1,11 @@
+{
+  "name": "shubham-academy",
+  "version": "2.0.0",
+  "description": "Shubham Academy — The Path of Success",
+  "scripts": {
+    "start": "npx serve public -l 3000",
+    "dev":   "npx live-server public --port=3000"
+  },
+  "keywords": ["coaching","academy","neet","jee","mht-cet"],
+  "license": "ISC"
+}

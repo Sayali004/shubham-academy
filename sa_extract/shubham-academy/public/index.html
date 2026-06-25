@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shubham Academy — The Path of Success</title>
+  <meta name="description" content="Maharashtra's premier coaching institute for NEET, JEE, MHT-CET and 11th–12th Science (PCMB)."/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet"/>
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+<!-- =========================================
+     PRELOADER
+========================================= -->
+<div id="preloader" class="preloader">
+  <div class="pre-wrap">
+    <div class="preloader-logo">
+      <img src="salogo.jpeg" alt="Shubham Academy Logo" class="logo-img">
+      <div class="loader-ring"></div>
+    </div>
+    <p>SHUBHAM ACADEMY</p>
+  </div>
+</div>
+
+<!-- =========================================
+     HEADER — transparent
+========================================= -->
+<header id="header" class="header">
+  <div class="header-wrap">
+
+    <a href="#home" class="logo">
+      <div class="logo-img-wrap">
+        <img src="salogo.jpeg" alt="Shubham Academy Logo" class="logo-img"/>
+      </div>
+      <div class="logo-text">
+        <span class="lt-marathi">प्रा. दबडे सर संचलित</span>
+        <span class="lt-name">Shubham Academy</span>
+      </div>
+    </a>
+
+    <nav class="nav" id="nav">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#courses">Courses</a></li>
+        <li><a href="#faculty">Faculty</a></li>
+        <li><a href="#results">Results</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </nav>
+
+    <button class="ham" id="ham" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- =========================================
+     HERO SLIDER — fullscreen
+========================================= -->
+<section class="hero" id="home">
+  <div class="slider" id="slider">
+
+    <div class="slide s-active">
+      <div class="slide-bg" style="background-image:url('https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=1800&q=85')"></div>
+      <div class="slide-overlay"></div>
+      <div class="slide-body">
+        <p class="slide-label">Coaching Institute · Maharashtra</p>
+        <h2 class="slide-small">The Path of Success Starts Here</h2>
+        <h1 class="slide-heading">SHUBHAM ACADEMY</h1>
+        <a href="#contact" class="slide-cta">Enroll Now</a>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-bg" style="background-image:url('https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?w=1800&q=85')"></div>
+      <div class="slide-overlay"></div>
+      <div class="slide-body">
+        <p class="slide-label">Maharashtra's Most Trusted</p>
+        <h2 class="slide-small">Our students consistently top national rankings</h2>
+        <h1 class="slide-heading">99.65 PERCENTILE</h1>
+        <a href="#results" class="slide-cta">View Results</a>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-bg" style="background-image:url('https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=1800&q=85')"></div>
+      <div class="slide-overlay"></div>
+      <div class="slide-body">
+        <p class="slide-label">Expert Faculty · Proven Methods</p>
+        <h2 class="slide-small">Sculpting the leaders of tomorrow</h2>
+        <h1 class="slide-heading">SHAPING FUTURES</h1>
+        <a href="#faculty" class="slide-cta">Meet Faculty</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Slider controls — bottom center -->
+  <div class="slider-ctrl">
+    <button class="sc-prev" id="scPrev">&#10094;</button>
+    <div class="sc-dots" id="scDots">
+      <span class="sc-dot active"></span>
+      <span class="sc-dot"></span>
+      <span class="sc-dot"></span>
+    </div>
+    <button class="sc-next" id="scNext">&#10095;</button>
+  </div>
+
+  <div class="hero-scroll">
+    <div class="hs-bar"></div>
+    <span>Scroll</span>
+  </div>
+</section>
+
+<!-- Stats strip — navy bar below hero -->
+<div class="stats-bar">
+  <div class="stats-inner">
+    <div class="stat-item">
+      <strong><span class="counter" ></span>99.65 %tile</strong>
+      <span>Top MHT-CET Score</span>
+    </div>
+    <div class="stat-sep"></div>
+    <div class="stat-item">
+      <strong><span class="counter" ></span>500+</strong>
+      <span>Entrance Cleared</span>
+    </div>
+    <div class="stat-sep"></div>
+    <div class="stat-item">
+      <strong><span class="counter" ></span> 32Yrs</strong>
+      <span>Faculty Expertise</span>
+    </div>
+    <div class="stat-sep"></div>
+    <div class="stat-item">
+      <strong><span class="counter" ></span></strong>
+      <span>2 Campuses</span>
+    </div>
+  </div>
+</div>
+
+<!-- =========================================
+     OVERVIEW SECTION 
+========================================= -->
+<section class="overview" id="about">
+  <div class="wrap">
+    <div class="ov-grid">
+      <div class="ov-text">
+        <h2 class="sec-title reveal">Overview</h2>
+        <div class="gold-rule reveal" style="--d:.08s"></div>
+        <p class="ov-intro reveal" style="--d:.15s">
+          Welcome to <strong>Shubham Academy</strong> — The most trusted coaching institute. Founded by Prof. Dabade Sir, we have woven a legacy of academic excellence spanning years of transforming students from aspirants into achievers.
+
+        </p>
+        <p class="ov-body reveal" style="--d:.22s">
+          Our roots are firmly planted in the foundation of trust, and our branches reach across Maharashtra, touching lives and transforming futures. We have been on a journey that extends from the heart of Kolhapur to Atpadi, building strong concepts, the discipline to succeed, and the confidence to crack India's toughest entrance exams — NEET, JEE &amp; MHT-CET.
+        </p>
+        <a href="#courses" class="read-more reveal" style="--d:.29s">Read More →</a>
+      </div>
+      <div class="ov-image reveal" style="--d:.15s">
+        <div class="ov-img-frame">
+          <img src="overview2.png" alt="Shubham Academy"/>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- =========================================
+     BUILDING THE SPIRIT
+========================================= -->
+<section class="chairman">
+  <div class="wrap">
+    <div class="ch-grid">
+      <div class="ch-image">
+        <div class="ch-img-frame reveal">
+          <img src="dabadesir.jpeg" alt="Director"/>
+        </div>
+        
+        <div class="ch-stats reveal" style="--d:.2s">
+          <div class="ch-stat"><b>2</b><span>Branches</span></div>
+          <div class="ch-stat-div"></div>
+          <div class="ch-stat"><b>15+</b><span>Faculty</span></div>
+          <div class="ch-stat-div"></div>
+          <div class="ch-stat"><b>500+</b><span>Cleared</span></div>
+          <div class="ch-stat-div"></div>
+          <div class="ch-stat"><b>PCMB</b><span>Subjects</span></div>
+        </div>
+      </div>
+      <div class="ch-text">
+        <p class="gold-label reveal">Prof. Dabade Sir<br/>Founder, Shubham Academy</p>
+        
+
+        <h2 class="sec-title reveal" style="--d:.08s">A Note from<br/>the Director</h2>
+        <div class="gold-rule reveal" style="--d:.15s"></div>
+        <blockquote class="ch-quote reveal" style="--d:.22s">
+          "At Shubham Academy, we've cultivated the trust of hundreds of students and families, laying the foundation for a thriving academic institution. It fills us with immense joy to declare that our commitment to quality education isn't just meeting student expectations — it's enriching lives and shaping futures."
+        </blockquote>
+        <p class="ch-body reveal" style="--d:.29s">
+          Dear students, remember — success in science is not about memorising formulas, but about understanding concepts and applying them with confidence. Stay curious, stay consistent, and never stop learning. To the parents, I assure you that your trust in us will always be respected.
+        </p>
+        <p class="ch-body reveal" style="--d:.36s">
+          We are committed to shaping not just successful students, but responsible and confident individuals. At our academy, we focus on conceptual clarity, practical understanding, regular practice and assessment, and personalised guidance for every student.
+        </p>
+        <a href="#about" class="read-more reveal" style="--d:.43s">Read More →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================
+     DEFINED BY SECTION 
+========================================= -->
+<section class="defined-by">
+  <div class="wrap">
+    <div class="db-grid">
+      <div class="db-text">
+        <h2 class="sec-title light reveal">Defined by students,<br/>positivity &amp; progress</h2>
+        <div class="gold-rule reveal" style="--d:.08s"></div>
+        <p class="db-body reveal" style="--d:.15s">
+          At Shubham Academy, a vibrant ensemble of dedicated faculty and staff are driven by the belief that positivity and practical knowledge lead to transformative results. In our institution, we cultivate a mindset that empowers each student to realise their full potential and make a meaningful impact in their chosen career.
+        </p>
+        <p class="db-body reveal" style="--d:.22s">
+          We inspire every student to believe that they can bring about positive change and turn their aspirations into tangible achievements. Join us in the pursuit of making a difference and turning the dreams you harbour into reality through NEET, JEE, MHT-CET and Board excellence.
+        </p>
+        <div class="db-tags reveal" style="--d:.29s">
+          <span>💡 Conceptual Clarity</span>
+          <span>📋 Regular Assessment</span>
+          <span>🧑‍🏫 Personal Guidance</span>
+          <span>🏠 Residential Facility</span>
+        </div>
+      </div>
+      <div class="db-image">
+        <img src="chhayadabade.png" alt="Director" class="reveal" style="--d:.15s"/>
+        <div class="db-img-tag reveal" style="--d:.25s">
+          <strong>Mrs. Chhaya Dabade</strong>
+          <span>Co-Founder, Shubham Academy</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- =========================================
+     SPHERES
+========================================= -->
+<section class="spheres" id="courses">
+  <div class="wrap">
+    <h2 class="sec-title center reveal">Programs that Spark Smiles</h2>
+    <div class="gold-rule center reveal" style="--d:.08s"></div>
+    <p class="spheres-intro reveal" style="--d:.15s">
+      Shubham Academy excels in various academic programs, ensuring we leave a significant mark in every student's journey. From 11th–12th Science to NEET, JEE &amp; MHT-CET — we have marked our presence in everything that matters for your future.
+    </p>
+  </div>
+
+  <!-- Cards grid — Ghodawat style image cards -->
+  <div class="spheres-grid">
+
+    <div class="sp-card reveal" style="--d:.06s">
+      <div class="sp-img"><img src="https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?w=700&q=85" alt="11th Science"/></div>
+      <div class="sp-overlay"></div>
+      <div class="sp-label">
+        <span class="sp-badge">Most Popular</span>
+        <h3>11th Science (PCMB)</h3>
+        <p>Build rock-solid fundamentals in Physics, Chemistry, Mathematics &amp; Biology.</p>
+      </div>
+      <div class="sp-hover">
+        <h3>11th Science (PCMB)</h3>
+        <ul>
+          <li>Foundation batch starts early</li>
+          <li>Daily Practice Problems (DPP)</li>
+          <li>Concept-first approach</li>
+          <li>Weekly tests &amp; analysis</li>
+        </ul>
+        <a href="#contact">Enroll Now →</a>
+      </div>
+    </div>
+
+    <div class="sp-card reveal" style="--d:.1s">
+      <div class="sp-img"><img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=700&q=85" alt="12th Science"/></div>
+      <div class="sp-overlay"></div>
+      <div class="sp-label">
+        <h3>12th Science Boards</h3>
+        <p>Score 90%+ in HSC with structured curriculum and board-pattern tests.</p>
+      </div>
+      <div class="sp-hover">
+        <h3>12th Science Boards</h3>
+        <ul>
+          <li>HSC board-focused preparation</li>
+          <li>Past paper mastery</li>
+          <li>Writing &amp; presentation skills</li>
+          <li>Regular parent meetings</li>
+        </ul>
+        <a href="#contact">Enroll Now →</a>
+      </div>
+    </div>
+
+    <div class="sp-card reveal" style="--d:.14s">
+      <div class="sp-img"><img src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=700&q=85" alt="MHT-CET"/></div>
+      <div class="sp-overlay"></div>
+      <div class="sp-label">
+        <h3>MHT-CET</h3>
+        <p>99+ percentile achieved. Exhaustive test series and smart CET modules.</p>
+      </div>
+      <div class="sp-hover">
+        <h3>MHT-CET</h3>
+        <ul>
+          <li>MHT-CET focused modules</li>
+          <li>Exhaustive mock test series</li>
+          <li>Rank improvement strategies</li>
+          <li>Special scholar batches</li>
+        </ul>
+        <a href="#contact">Enroll Now →</a>
+      </div>
+    </div>
+
+    <div class="sp-card reveal" style="--d:.18s">
+      <div class="sp-img"><img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=700&q=85" alt="NEET"/></div>
+      <div class="sp-overlay"></div>
+      <div class="sp-label">
+        <h3>NEET (Medical)</h3>
+        <p>Multiple MBBS doctors produced. Deep Biology, Chemistry &amp; Physics coverage.</p>
+      </div>
+      <div class="sp-hover">
+        <h3>NEET (Medical)</h3>
+        <ul>
+          <li>NCERT + advanced coverage</li>
+          <li>Special biology focus</li>
+          <li>NEET pattern mock exams</li>
+          <li>Intensive doubt sessions</li>
+        </ul>
+        <a href="#contact">Enroll Now →</a>
+      </div>
+    </div>
+
+    <div class="sp-card reveal" style="--d:.22s">
+      <div class="sp-img"><img src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=700&q=85" alt="JEE"/></div>
+      <div class="sp-overlay"></div>
+      <div class="sp-label">
+        <h3>JEE Main</h3>
+        <p>Rigorous problem solving and IIT-focused methodology for national entrance.</p>
+      </div>
+      <div class="sp-hover">
+        <h3>JEE Main</h3>
+        <ul>
+          <li>Advanced problem solving</li>
+          <li>JEE-pattern mock tests</li>
+          <li>Strong Maths foundation</li>
+          <li>E-learning audio-visual</li>
+        </ul>
+        <a href="#contact">Enroll Now →</a>
+      </div>
+    </div>
+
+    <div class="sp-card reveal" style="--d:.26s">
+      <div class="sp-img"><img src="https://images.unsplash.com/photo-1562774053-701939374585?w=700&q=85" alt="Residential"/></div>
+      <div class="sp-overlay"></div>
+      <div class="sp-label">
+        <h3>Residential Programme</h3>
+        <p>Full hostel at Atpadi campus — distraction-free, disciplined, mentored.</p>
+      </div>
+      <div class="sp-hover">
+        <h3>Residential Programme</h3>
+        <ul>
+          <li>Hostel at Atpadi campus</li>
+          <li>AC classrooms all day</li>
+          <li>Structured study hours</li>
+          <li>Complete mentorship</li>
+        </ul>
+        <a href="#contact">Know More →</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- =========================================
+     ESG / WHY US 
+========================================= -->
+<section class="why-us">
+  <div class="wrap">
+    <h2 class="sec-title light center reveal">Everything Under One Roof</h2>
+    <div class="gold-rule center reveal" style="--d:.08s"></div>
+    <p class="why-intro reveal" style="--d:.15s">Shubham Academy thrives across all facets of Science education, ensuring every student gets the tools, support and environment they need to succeed.</p>
+    <div class="why-grid">
+      <div class="why-item reveal" style="--d:.05s"><span>🏫</span><h4>2 Branches</h4><p>Rajarampuri Kolhapur &amp; Atpadi</p></div>
+      <div class="why-item reveal" style="--d:.09s"><span>❄️</span><h4>AC Classrooms</h4><p>Modern, cool, focused learning</p></div>
+      <div class="why-item reveal" style="--d:.13s"><span>🎬</span><h4>E-Learning</h4><p>Audio-visual digital material</p></div>
+      <div class="why-item reveal" style="--d:.17s"><span>📝</span><h4>Test Series</h4><p>Exhaustive DPPs &amp; mock tests</p></div>
+      <div class="why-item reveal" style="--d:.21s"><span>👥</span><h4>Limited Batches</h4><p>Max individual attention</p></div>
+      <div class="why-item reveal" style="--d:.25s"><span>👨‍👩‍👧</span><h4>Parent Meetings</h4><p>Progress every 3 months</p></div>
+      <div class="why-item reveal" style="--d:.29s"><span>🏠</span><h4>Hostel Facility</h4><p>Residential at Atpadi</p></div>
+      <div class="why-item reveal" style="--d:.33s"><span>🧭</span><h4>Counselling</h4><p>Career guidance year-round</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================
+     PEOPLE / FACULTY 
+========================================= -->
+<section class="people" id="faculty">
+  <div class="wrap">
+    <h2 class="sec-title reveal">Faculty: The Pillars of Our Progress</h2>
+    <div class="gold-rule reveal" style="--d:.08s"></div>
+    <p class="people-intro reveal" style="--d:.15s">
+      Meet our core faculty at Shubham Academy — a dedicated group of professionals guided by the belief that knowledge and passion lead to transformative results. Our faculty is committed to guiding students at every step of their journey.
+    </p>
+  </div>
+
+  <!-- Faculty horizontal scroll track -->
+  <div class="people-scroll">
+    <div class="people-track" id="peopleTrack">
+
+      <div class="person-card reveal" style="--d:.05s">
+        <div class="pc-photo">
+          <img src="nevaskr.png" alt="Prof. Nevaskar"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/>
+          <div class="pc-init" style="display:none;background:#6B1212">NP</div>
+        </div>
+        <div class="pc-tag physics">Physics</div>
+        <h4>Prof. Nevaskar S.P</h4>
+        <p>M.Sc, BEd</p>
+        <div class="pc-bar"><div style="width:97%"></div></div>
+        <span>32 yrs experience</span>
+      </div>
+
+      <div class="person-card reveal" style="--d:.09s">
+        <div class="pc-photo">
+          <img src="sbpatil.jpeg" alt="Prof. Patil S.B"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/>
+          <div class="pc-init" style="display:none;background:#6B1212">PB</div>
+        </div>
+        <div class="pc-tag physics">Physics</div>
+        <h4>Prof. Patil S.B</h4>
+        <p>B.E (Mech.)</p>
+        <div class="pc-bar"><div style="width:88%"></div></div>
+        <span>27 yrs experience</span>
+      </div>
+
+      <div class="person-card reveal" style="--d:.13s">
+        <div class="pc-photo">
+          <img src="dabadee.png" alt="Prof. Dabade T.K"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/>
+          <div class="pc-init" style="display:none;background:#2c5f8a">DT</div>
+        </div>
+        <div class="pc-tag chem">Chemistry</div>
+        <h4>Prof. Dabade T.K</h4>
+        <p>M.Sc, BEd</p>
+        <div class="pc-bar"><div style="width:88%"></div></div>
+        <span>27 yrs experience</span>
+      </div>
+
+      <div class="person-card reveal" style="--d:.17s">
+        <div class="pc-photo">
+          <img src="MANESIR.jpeg" alt="Prof. Mane R"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/>
+          <div class="pc-init" style="display:none;background:#2c5f8a">MR</div>
+        </div>
+        <div class="pc-tag chem">Chemistry</div>
+        <h4>Prof. Mane R.</h4>
+        <p>M.Sc, BEd</p>
+        <div class="pc-bar"><div style="width:55%"></div></div>
+        <span>10 yrs experience</span>
+      </div>
+      
+
+      <div class="person-card reveal" style="--d:.21s">
+        <div class="pc-photo">
+          <img src="bhosale.png" alt="Prof. Bhosale"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/>
+          <div class="pc-init" style="display:none;background:#1a5c2e">BS</div>
+        </div>
+        <div class="pc-tag maths">Maths</div>
+        <h4>Prof. Bhosale S.J</h4>
+        <p>M.Sc, BEd, TET</p>
+        <div class="pc-bar"><div style="width:72%"></div></div>
+        <span>15 yrs experience</span>
+      </div>
+
+      <div class="person-card reveal" style="--d:.25s">
+        <div class="pc-photo">
+          <img src="gurav.png" alt="Prof. Gurav"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/>
+          <div class="pc-init" style="display:none;background:#1a5c2e">GR</div>
+        </div>
+        <div class="pc-tag maths">Maths</div>
+        <h4>Prof. Gurav R.</h4>
+        <p>M.Sc, BEd</p>
+        <div class="pc-bar"><div style="width:72%"></div></div>
+        <span>15 yrs experience</span>
+      </div>
+
+      <div class="person-card reveal" style="--d:.29s">
+        <div class="pc-photo">
+          <img src="rmpatil.png" alt="Prof. Patil R.M"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/>
+          <div class="pc-init" style="display:none;background:#5c1a1a">PR</div>
+        </div>
+        <div class="pc-tag bio">Biology</div>
+        <h4>Prof. Patil R.M</h4>
+        <p>M.Sc, BEd</p>
+        <div class="pc-bar"><div style="width:90%"></div></div>
+        <span>28 yrs experience</span>
+      </div>
+
+      <div class="person-card reveal" style="--d:.33s">
+        <div class="pc-photo">
+          <img src="kakadesir.jpeg" alt="Prof. Kakade"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/>
+          <div class="pc-init" style="display:none;background:#5c1a1a">KK</div>
+        </div>
+        <div class="pc-tag bio">Biology</div>
+        <h4>Prof. Kakade</h4>
+        <p>M.Sc, BEd</p>
+        <div class="pc-bar"><div style="width:55%"></div></div>
+        <span>10 yrs experience</span>
+      </div>
+
+      
+
+    </div>
+    <p class="drag-hint">← drag to explore →</p>
+  </div>
+</section>
+
+<!-- =========================================
+     RESULTS 
+========================================= -->
+<section class="results" id="results">
+  <div class="wrap">
+    <h2 class="sec-title light center reveal">Our Success Stories</h2>
+    <div class="gold-rule center reveal" style="--d:.08s"></div>
+    <p class="results-intro reveal" style="--d:.15s">Our students consistently top Maharashtra and national rankings, achieving their dreams in medicine, engineering and pharmacy.</p>
+
+    <div class="results-grid">
+      <div class="rc reveal" style="--d:.06s">
+        <div class="rc-img"><img src="gourii.png" alt="Gouree" onerror="this.parentNode.innerHTML='<div class=rc-init>GS</div>'"/>
+          <div class="rc-score">99.65%tile<small>Board-94%</small></div></div>
+          
+        <div class="rc-body"><span class="rc-tag">MHT-CET Topper</span><h4>Gouree Suryavanshi</h4><p class="rc-dest">B.Tech — Government College</p><p class="rc-q">"This success is because of my parents' support and my academy teachers' guidance."</p></div>
+      </div>
+      <div class="rc reveal" style="--d:.22s">
+        <div class="rc-img"><img src="shreyas.jpeg" alt="Shreyash" onerror="this.parentNode.innerHTML='<div class=rc-init>SK</div>'"/>
+          <div class="rc-score">99.27 %tile<small>Board-91%</small></div></div>
+        <div class="rc-body"><span class="rc-tag">MHT-CET Achiever</span><h4>Shreyash Kadam</h4><p class="rc-dest"></p><p class="rc-q">"Stay focused, practice regularly, and believe in your abilities."</p></div>
+      </div>
+      <div class="rc reveal" style="--d:.1s">
+        <div class="rc-img"><img src="siddhesh.png" alt="Siddhesh" onerror="this.parentNode.innerHTML='<div class=rc-init>SC</div>'"/>
+          <div class="rc-score">99.27 %tile<small>Board-89%</small></div></div>
+        <div class="rc-body"><span class="rc-tag">MHT-CET Achiever</span><h4>Siddhesh Chavan</h4><p class="rc-dest">B.Tech — PICT Pune</p><p class="rc-q">"Stay consistent, trust the process, and never give up. Success will come."</p></div>
+      </div>
+      <div class="rc reveal" style="--d:.14s">
+        <div class="rc-img"><img src="savita.png" alt="Dr. Savita" onerror="this.parentNode.innerHTML='<div class=rc-init>SD</div>'"/>
+          <div class="rc-score neet">MBBS<small>MD</small></div></div>
+        <div class="rc-body"><span class="rc-tag">NEET Cleared</span><h4>Dr. Savita Dabade</h4><p class="rc-dest">MBBS, MD — Doctor</p><p class="rc-q">"Stay dedicated, manage your time well, and keep believing in yourself."</p></div>
+      </div>
+      <div class="rc reveal" style="--d:.18s">
+        <div class="rc-img"><img src="komal.png" alt="Dr. Komal" onerror="this.parentNode.innerHTML='<div class=rc-init>KS</div>'"/>
+          <div class="rc-score neet">MBBS<small>Doctor</small></div></div>
+        <div class="rc-body"><span class="rc-tag">NEET Cleared</span><h4>Dr. Komal Saket</h4><p class="rc-dest">MBBS — Doctor</p><p class="rc-q">"Clear concepts, regular tests, and personal attention helped me succeed."</p></div>
+      </div>
+      
+      <div class="rc reveal" style="--d:.26s">
+        <div class="rc-img"><img src="aryakashid.png" alt="Aradhya" onerror="this.parentNode.innerHTML='<div class=rc-init>AK</div>'"/>
+          <div class="rc-score">98.39<small>%tile</small></div></div>
+        <div class="rc-body"><span class="rc-tag">MHT-CET Achiever</span><h4>Aradhya Kashid</h4><p class="rc-dest">Pharm-D</p><p class="rc-q">"Stay determined, study smart, and never lose confidence. You can achieve."</p></div>
+      </div>
+    </div>
+
+    <!-- Board topper ticker -->
+    <div class="ticker reveal" style="--d:.1s">
+      <span class="ticker-hd">🏅 HSC Board Toppers</span>
+      <div class="ticker-scroll"><div class="ticker-track">
+        <span>Tanisha Aldar <b>95.67%</b></span><i>◆</i>
+        <span>Gouree Suryavanshi <b>94.00%</b></span><i>◆</i>
+        <span>Shreya Mirjkar <b>91.17%</b></span><i>◆</i>
+        <span>Shreya Bhudargade <b>91.00%</b></span><i>◆</i>
+        <span>Siddhesh Chavan <b>89.00%</b></span><i>◆</i>
+        <span>Yash Dongare <b>88.00%</b></span><i>◆</i>
+        <span>Mihir Mane <b>88.50%</b></span><i>◆</i>
+        <span>Shreyash Kadam <b>91.00%</b></span><i>◆</i>
+        <span>Tanisha Aldar <b>95.67%</b></span><i>◆</i>
+        <span>Gouree Suryavanshi <b>94.00%</b></span><i>◆</i>
+        <span>Shreya Mirjkar <b>91.17%</b></span><i>◆</i>
+        <span>Karan Masal <b>87.50%</b></span><i>◆</i>
+      </div></div>
+    </div>
+
+    <!-- Percentile grid -->
+    <h3 class="perc-hd reveal" style="--d:.1s">MHT-CET Entrance Percentiles</h3>
+    <div class="perc-grid reveal" style="--d:.18s">
+      <div class="pc"><b>99.65</b><span>Gouree Suryavanshi</span></div>
+      <div class="pc"><b>99.27</b><span>Shreyash Kadam</span></div>
+      
+
+      <div class="pc"><b>99.27</b><span>Siddhesh Chavan</span></div>
+      <div class="pc"><b>98.39</b><span>Aaradhya Kashid</span></div>
+      <div class="pc"><b>98.30</b><span>Akshata Khillare</span></div>
+      <div class="pc"><b>98.27</b><span>Dhiraj Patade</span></div>
+      <div class="pc"><b>97.99</b><span>Komal Saket</span></div>
+      <div class="pc"><b>97.72</b><span>Aditi Khot</span></div>
+
+      <div class="pc"><b>97.50</b><span>Sayali Malage</span></div>
+      <div class="pc"><b>97.31</b><span>Tushar Sherkhane</span></div>
+      <div class="pc"><b>97.17</b><span>Yash Dongare</span></div>
+      <div class="pc"><b>96.44</b><span>Sayali Patil</span></div>
+      <div class="pc"><b>96.41</b><span>Om Chougule</span></div>
+      <div class="pc"><b>96.02</b><span>Karan Masal</span></div>
+
+      <div class="pc"><b>95.11</b><span>Mrudula Kulakrni</span></div>
+      <div class="pc"><b>95.00</b><span>Mihir Mane</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================
+     CONTACT 
+========================================= -->
+<section class="contact" id="contact">
+  <div class="wrap">
+    <div class="ct-grid">
+      <div class="ct-info reveal">
+        <h2 class="sec-title">Enroll at<br/>Shubham Academy</h2>
+        <div class="gold-rule" style="margin:1.4rem 0 1.8rem"></div>
+        <p style="color:#555;line-height:1.85;margin-bottom:2rem;font-size:.97rem">Fill out the form and our admissions team will contact you within 24 hours to guide you through the process.</p>
+        <div class="ct-info-rows">
+          <div class="ct-row"><span>📍</span><div><strong>Kolhapur Branch</strong><small>Rajarampuri, Kolhapur, Maharashtra</small></div></div>
+          <div class="ct-row"><span>📍</span><div><strong>Atpadi Branch</strong><small>Atpadi, Sangli, Maharashtra</small></div></div>
+          <div class="ct-row"><span>🕐</span><div><strong>Office Hours</strong><small>Monday – Saturday · 7 AM – 7 PM</small></div></div>
+        </div>
+        <blockquote class="ct-quote">"Education is one thing no one can take away from you."</blockquote>
+      </div>
+
+      <div class="ct-form reveal" style="--d:.2s">
+        <div class="form-box">
+          <h3>Free Admission Enquiry</h3>
+          <p>We'll guide you to the perfect course.</p>
+          <form id="contactForm" novalidate>
+            <div class="fg-row">
+              <div class="fg"><label>Full Name *</label><input type="text" id="from_name" name="from_name" placeholder="Your full name" required/><span class="fe" id="errName"></span></div>
+              <div class="fg"><label>Phone *</label><input type="tel" id="phone" name="phone" placeholder="10-digit mobile" required/><span class="fe" id="errPhone"></span></div>
+            </div>
+            <div class="fg-row">
+              <div class="fg"><label>Current Class *</label>
+                <select id="student_class" name="student_class" required><option value="">Select class</option><option>10th (Fresher)</option><option>11th Science</option><option>12th Science</option><option>Repeater / Dropper</option></select>
+                <span class="fe" id="errClass"></span></div>
+              <div class="fg"><label>Course *</label>
+                <select id="course" name="course" required><option value="">Select course</option><option>11th Science (PCMB)</option><option>12th Science Boards</option><option>MHT-CET</option><option>NEET</option><option>JEE Main</option><option>Residential Programme</option></select>
+                <span class="fe" id="errCourse"></span></div>
+            </div>
+            <div class="fg"><label>Message (Optional)</label><textarea id="message" name="message" rows="3" placeholder="Any specific queries..."></textarea></div>
+            <button type="submit" id="submitBtn"><span id="btnLabel">Submit Enquiry</span></button>
+            <div id="formSuccess" style="display:none" class="form-success"><div>✅</div><h4>Enquiry Submitted!</h4><p>Our team will call you within 24 hours.</p></div>
+            <div id="formError" style="display:none" class="form-err"><p id="errMsg">Something went wrong. Please try again.</p></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================
+     FOOTER
+========================================= -->
+<footer class="footer">
+  <div class="footer-top">
+    <div class="wrap">
+
+      <div class="ft-logo-row">
+
+        <!-- Logo Section -->
+        <div class="ft-logo">
+          <div class="logo-img-wrap">
+            <img src="salogo.jpeg" alt="Shubham Academy Logo" class="logo-img">
+          </div>
+
+          <div class="ft-logo-text">
+            <strong>Shubham Academy</strong>
+            <span>The Path of Success</span>
+          </div>
+        </div>
+
+        <!-- Contact Section -->
+        <div class="ft-contact-section">
+          <h5>Get In Touch</h5>
+
+          <div class="ft-contact-inline">
+
+            <div class="contact-item">
+              <span class="contact-label">Phone</span>
+              <a href="tel:+918888200051">
+                <i class="fas fa-phone"></i>
+                +91 88882 00051
+              </a>
+            </div>
+
+            <div class="contact-item">
+              <span class="contact-label">Instagram</span>
+              <a href="https://instagram.com/shubham.academy" target="_blank">
+                <i class="fab fa-instagram"></i>
+                @shubham.academy
+              </a>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+      <p class="ft-quote">
+        "Science is organized knowledge, wisdom is organized life."
+      </p>
+
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="wrap footer-bottom-content">
+      <span>© 2025 SHUBHAM ACADEMY. ALL RIGHTS RESERVED.</span>
+      <span>Designed with ❤️ for student success</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
