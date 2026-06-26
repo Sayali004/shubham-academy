@@ -673,3 +673,24 @@ address { font-style:normal; }
     text-align:center;
   }
 }
+
+/* Mobile tap support */
+.sp-card.active .sp-img{
+    transform: scale(1.08);
+}
+
+.sp-card.active .sp-overlay{
+    background: linear-gradient(to top,
+        rgba(74,11,11,.92) 0%,
+        rgba(74,11,11,.6) 100%);
+}
+
+.sp-card.active .sp-label{
+    transform: translateY(-100%);
+    opacity:0;
+}
+
+.sp-card.active .sp-hover{
+    opacity:1;
+    transform:translateY(0);
+}
