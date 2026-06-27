@@ -145,8 +145,20 @@ address { font-style:normal; }
 ===================================================== */
 .hero { position:relative; height:100vh; overflow:hidden; }
 .slider { position:absolute; inset:0; }
-.slide { position:absolute; inset:0; opacity:0; transition:opacity 1.1s var(--ease); }
-.slide.s-active { opacity:1; }
+.slide {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  pointer-events: none;
+  z-index: 1;
+  transition: opacity 1.1s var(--ease);
+}
+
+.slide.s-active {
+  opacity: 1;
+  pointer-events: auto;
+  z-index: 2;
+}
 .slide-bg { position:absolute; inset:0; background-size:cover; background-position:center; transition:transform 8s linear; }
 .slide.s-active .slide-bg { transform:scale(1.06); }
 .slide-overlay { position:absolute; inset:0; background:linear-gradient(180deg, rgba(10,20,40,.4) 0%, rgba(10,20,40,.72) 100%); }
