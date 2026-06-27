@@ -694,3 +694,7 @@ address { font-style:normal; }
     opacity:1;
     transform:translateY(0);
 }
+
+section[id] {
+  scroll-margin-top: 76px;
+}
