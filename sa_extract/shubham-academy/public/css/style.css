@@ -471,15 +471,40 @@ address { font-style:normal; }
   .logo-img-wrap { width:58px; height:58px; border-radius:6px; padding:3px; }
 
   /* Mobile nav */
-  .nav {
-    display:none; flex-direction:column; gap:0;
-    position:fixed; top:0; right:0; bottom:0; width:82%; max-width:300px;
-    background:rgba(74,11,11,.98); backdrop-filter:blur(20px);
-    padding:5.5rem 1.75rem 2rem;
-    transition:transform var(--t) var(--ease); transform:translateX(100%);
-    box-shadow:-8px 0 50px rgba(0,0,0,.6); z-index:900; overflow-y:auto;
-  }
-  .nav.open { display:flex; transform:translateX(0); }
+   .nav {
+       display: flex;
+       flex-direction: column;
+       gap: 0;
+   
+       position: fixed;
+   
+       top: 76px;                 /* Header height */
+       right: 0;
+       bottom: 0;
+   
+       width: 82%;
+       max-width: 300px;
+   
+       padding: 1.5rem 1.75rem 2rem;
+   
+       background: rgba(74,11,11,.98);
+       backdrop-filter: blur(20px);
+   
+       transform: translateX(100%);
+       transition: transform .35s ease;
+   
+       box-shadow: -8px 0 50px rgba(0,0,0,.6);
+   
+       overflow-y: auto;
+       z-index: 9999;
+   
+       visibility: hidden;
+   }
+   
+   .nav.open {
+       transform: translateX(0);
+       visibility: visible;
+   }
   .nav ul { flex-direction:column; gap:0; }
   .nav ul li { border-bottom:1px solid rgba(255,255,255,.08); }
   .nav a { display:block; padding:1rem 0; font-size:1rem; color:rgba(255,255,255,.82); letter-spacing:0; }
