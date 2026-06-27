@@ -77,7 +77,7 @@ address { font-style:normal; }
    HEADER — transparent → solid navy
 ===================================================== */
 .header {
-  position:fixed; top:0; left:0; right:0; z-index:900;
+  position:fixed; top:0; left:0; right:0; z-index:1000;
   padding:1rem 0;
   transition:background var(--t) var(--ease), box-shadow var(--t), padding var(--t);
 }
