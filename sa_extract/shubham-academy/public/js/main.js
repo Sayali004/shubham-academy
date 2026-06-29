@@ -4,7 +4,7 @@
 ════════════════════════════════════════════════ */
 
 /* ── EMAILJS KEYS — replace these 3 values ── */
-const EMAILJS_SERVICE_ID  = 'service_takwe3n';
+const EMAILJS_SERVICE_ID  = 'service_x2lgp6m';
 const EMAILJS_TEMPLATE_ID = 'template_a3njqd7';
 const EMAILJS_PUBLIC_KEY  = 'JH9zPM2ckL6H9N3Vs';
 
